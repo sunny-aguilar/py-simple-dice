@@ -2,4 +2,4 @@
 go = True
 
 while go:
-    
+    result = roll_dice()

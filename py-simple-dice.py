@@ -6,7 +6,10 @@ go = True
 
 while go:
     result = roll_dice()
-    go = input('Would you like to roll again? ')
+    response = input('Would you like to roll again (y/n)? ')
+    if response.upper() == 'Y':
+        go = True
+
 
 def roll_dice():
     number = random.randint(1,6)

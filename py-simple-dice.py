@@ -2,7 +2,7 @@
 import random
 
 
-go = True
+go = False
 
 while go:
     result = roll_dice()

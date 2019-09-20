@@ -9,4 +9,5 @@ while go:
 
 
 def roll_dice():
-
+    number = random.randint(1,6)
+    print(number)

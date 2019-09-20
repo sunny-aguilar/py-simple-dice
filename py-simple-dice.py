@@ -15,7 +15,7 @@ while go:
     response = input('Would you like to roll again (y/n)? ')
     if response.upper() == 'Y':
         go = True
-    else:
+    else if response.upper() == 'N':
         go = False
 
 

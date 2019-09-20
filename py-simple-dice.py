@@ -2,7 +2,12 @@
 import random
 
 
-go = False
+go = True
+
+def roll_dice():
+    number = random.randint(1,6)
+    print(number)
+
 
 while go:
     result = roll_dice()
@@ -11,6 +16,4 @@ while go:
         go = True
 
 
-def roll_dice():
-    number = random.randint(1,6)
-    print(number)
+

@@ -6,9 +6,10 @@ go = False
 
 while go:
     result = roll_dice()
-    response = input('Would you like to roll again (y/n)? ')
+    response = ''
     if response.upper() == 'Y':
         go = True
+    response = input('Would you like to roll again (y/n)? ')
 
 
 def roll_dice():

@@ -1,4 +1,7 @@
 # simple dice rolling simulator
+import random
+
+
 go = True
 
 while go:
@@ -7,4 +10,3 @@ while go:
 
 def roll_dice():
 
-    
